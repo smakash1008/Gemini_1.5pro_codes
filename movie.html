@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .movie-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .movie-card {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .movie-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .movie-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .movie-details {
+            margin-bottom: 10px;
+        }
+
+        .book-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Ticket Booking</h1>
+
+        <div class="movie-list">
+            </div>
+    </div>
+
+    <script>
+        const movieList = document.querySelector('.movie-list');
+
+        // Sample movie data (replace with your actual data)
+        const movies = [
+            {
+                title: "Movie 1",
+                poster: "poster1.jpg",
+                details: "Genre: Action, Adventure | Duration: 2h 30m",
+            },
+            {
+                title: "Movie 2",
+                poster: "poster2.jpg",
+                details: "Genre: Comedy, Romance | Duration: 1h 45m",
+            },
+            // Add more movies here
+        ];
+
+        // Function to create and display movie cards
+        function displayMovies() {
+            movies.forEach(movie => {
+                const movieCard = `
+                    <div class="movie-card">
+                        <img src="${movie.poster}" alt="${movie.title} Poster">
+                        <div class="movie-title">${movie.title}</div>
+                        <div class="movie-details">${movie.details}</div>
+                        <button class="book-button">Book Tickets</button>
+                    </div>
+                `;
+                movieList.innerHTML += movieCard;
+            });
+        }
+
+        // Display movies on page load
+        displayMovies();
+    </script>
+</body>
+</html>
