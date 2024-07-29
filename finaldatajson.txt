@@ -1,0 +1,130 @@
+{
+    "Name": "ANIRUDHA PADHY",
+    "Email Address": "padhyanirudha@yahoo.in",
+    "Phone Number": "+91-8123950380",
+    "Gender": "NOT AVAILABLE",
+    "Marital Status": "NOT AVAILABLE",
+    "Nationality": "NOT AVAILABLE",
+    "Langauges Known": [
+        "English",
+        "Hindi",
+        "Oriya"
+    ],
+    "Date of Birth": "3rd March 1987",
+    "Skills": [
+        "Cloud Migration",
+        "data mappings",
+        "reports",
+        "web applications",
+        "data dictionaries",
+        "entity relationship diagrams",
+        "installation",
+        "configuration",
+        "Oracle Database 12c",
+        "18c",
+        "19c",
+        "Autonomous Database",
+        "Oracle Database Architecture",
+        "Exadata X8-2 quarter Rack Machine",
+        "JIRA",
+        "Service Now",
+        "AWR",
+        "SQLT",
+        "SQLHC",
+        "COE",
+        "AHF report",
+        "performance monitoring",
+        "Performance Tuning",
+        "Databases",
+        "Capacity Planning",
+        "Disaster Recovery Planning",
+        "Backup and Recovery",
+        "Configuration",
+        "Standby Databases",
+        "DR activity",
+        "patch management",
+        "ITIL",
+        "change management",
+        "ORACLE SR",
+        "CAB approval",
+        "strategy planning",
+        "implementation",
+        "Oracle RMAN-based backup",
+        "restore",
+        "recovery strategy",
+        "Logical backup expdp/impdp",
+        "AWS RDS",
+        "S3",
+        "OCI console",
+        "Object Storage",
+        "ASM",
+        "ASM Disk Groups",
+        "RAC Database",
+        "OEM/OCM",
+        "Migration"
+    ],
+    "Work Domain": [
+        "DBA",
+        "Database Administration"
+    ],
+    "Companies Worked": [
+        "Oracle India Ltd",
+        "Accenture Solution Pvt. Ltd."
+    ],
+    "Total Experience": "9.7 years",
+    "Education Details": [
+        {
+            "Education Institution": "Indira Gandhi National Open University",
+            "Education Course": "MCA",
+            "Education Branch": "NOT AVAILABLE",
+            "Graducation Year": "2013",
+            "Exams Percentage": "NOT AVAILABLE"
+        },
+        {
+            "Education Institution": "Indira Gandhi National Open University",
+            "Education Course": "BCA",
+            "Education Branch": "NOT AVAILABLE",
+            "Graducation Year": "2011",
+            "Exams Percentage": "NOT AVAILABLE"
+        }
+    ],
+    "Courses and Certification": [
+        "Oracle Autonomous Database Specialist Certified in 2023",
+        "Oracle Golden Gate 12c Certified Implementation Specialist in 2023"
+    ],
+    "Project Details": [
+        {
+            "Project Name": "Cloud Infrastructure Construction Project",
+            "Project Description": "Actively working on migration project Non-Cloud Platform to Oracle Cloud Infrastructure (12c to 18c/19c). Deployed new Oracle engine to Oracle Cloud and configured ODI tool to run ETL jobs.",
+            "Project Role": "Senior Cloud DB Migration Engineer",
+            "Project Domain": "Cloud Infrastructure Construction",
+            "Project Duration": "Mar’20  – Till",
+            "Project Technologies": [
+                "Oracle 12c",
+                "18c",
+                "19c RAC",
+                "Autonomous Database",
+                "LINUX",
+                "Kubernetes Cluster"
+            ]
+        },
+        {
+            "Project Name": "Shared Cloud Service",
+            "Project Description": "Managed and monitored Oracle Users, Roles, and Privileges & and created Database Objects, Data File Objects including Tablespace and Data Files, Object Sizing . Administrated planning, scheduling, and management of Oracle RMAN-backup, restore, recovery strategy, database & and schema refresh using Expdp & Impdp utilities",
+            "Project Role": "Cloud Operation Analyst",
+            "Project Domain": "Shared Cloud Service",
+            "Project Duration": "Jan’15-Mar’20",
+            "Project Technologies": [
+                "Oracle 8i",
+                "9i",
+                "10g",
+                "11g",
+                "12c",
+                "RAC",
+                "Postgre",
+                "LINUX"
+            ]
+        }
+    ]
+}
+
